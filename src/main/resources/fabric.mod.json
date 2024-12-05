@@ -1,0 +1,29 @@
+{
+	"schemaVersion": 1,
+	"id": "taking-a-break",
+	"version": "${version}",
+	"name": "Taking a Break",
+	"description": "Allows you to lay down anywhere with the /lay command",
+	"authors": [
+		"VoidedMC85",
+		"AnAwesomGuy"
+	],
+	"contact": {
+		"sources": "https://github.com/VoidedMC85-forks/taking-a-break-1.21.1"
+	},
+	"license": "ISC",
+	"icon": "assets/taking-a-break/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.voidedmc85.takingabreak.TakingABreak"
+		]
+	},
+	"mixins": [
+		"taking-a-break.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15",
+		"minecraft": "~1.21.1"
+	}
+}
